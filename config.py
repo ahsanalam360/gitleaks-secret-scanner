@@ -1,3 +1,3 @@
+import os
 
-# Published AWS example for classroom testing.
-AWS_ACCESS_KEY_ID = "AKIAIOSFODNN7EXAMPLE"
+AWS_ACCESS_KEY_ID = os.environ.get("AWS_ACCESS_KEY_ID")
